@@ -1,0 +1,84 @@
+.park-visited-true {
+    border: 1px dashed red;
+    padding: 1em;
+}
+
+.park-visited-false {
+    border: 1px solid green;
+    padding: 1em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC857;
+    color: #D36135;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 4px solid #ECEBE4;
+    background-color: #8ACDEA;
+    padding: 1em;
+    margin: 1em 5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 2em;
+    height: 2em;
+    border-radius: 10em; 
+    flex-direction: row;
+
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+    flex-direction: row;
+    padding-left: .5em;
+}
+
+.main-link {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    margin: 1em;
+}
+
+/*  INDEX */
+
+main {
+    background-color: #8ACDEA;
+    padding: 10em 7em;
+    margin: 8em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border: 2px solid #ECEBE4;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.aside-links {
+    text-decoration: none;
+    color: #D36135;
+}
+
+.aside-links:hover {
+    font-weight: bold;
+}
